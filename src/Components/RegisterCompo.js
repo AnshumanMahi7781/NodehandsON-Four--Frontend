@@ -58,7 +58,7 @@ function RegisterCompo() {
         "password": userPassword
       }
 
-      axios.post("http://localhost:5000/register", tempRegisterData).then((response) => {
+      axios.post("https://nodehandsonfourbackend.onrender.com/register", tempRegisterData).then((response) => {
         setIsError({ type: true, value: `${response.data.resMsg}` });
         if (response.data.TOKEN) {
 

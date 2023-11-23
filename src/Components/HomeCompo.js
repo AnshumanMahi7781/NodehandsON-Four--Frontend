@@ -3,7 +3,6 @@ import { NavLink, Outlet, useLocation} from "react-router-dom"
 
 function HomeCompo() {
     const pathName = useLocation().pathname;
-console.log(pathName)
     return (
         <div className="formsContainer">
             <div className="formsContainer--heading">
