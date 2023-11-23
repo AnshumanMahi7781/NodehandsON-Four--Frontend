@@ -13,7 +13,7 @@ console.log(pathName)
                 <NavLink to="/login" className="heading--links">Log In</NavLink>
                 <NavLink to="/register" className="heading--links">Register</NavLink>
             </div>
-            {pathName === "/" ? <h1>WelCome User</h1> : <Outlet/>}
+            {pathName === "/" ? <h1 className='homeMessage'>WelCome User</h1> : <Outlet/>}
 
         </div>
     )
